@@ -3,11 +3,19 @@
 <div align="center">
   <h1>👋 Hi, I'm DavinQi</h1>
   <p>Full-Stack Developer | love code | love ai </p>
-  <h3>☕ 主力 Java 后端开发者 | 🎨 热爱编程 | 🤖 痴迷 AI 编程 的开发老兵</h3>
+  <p>☕ 主力 Java 后端开发者 | 🎨 热爱编程 | 🤖 痴迷 AI 编程 的开发老兵</h3>
 </div>
 
 ---
 
+
+### 🧑‍💻 About Me
+- 🔧 **Primary Language**: Java (Backend, Microservices, Concurrent Programming)
+- 🎨 **Interests**: Frontend Development & AI Programming
+- 🤖 **Passion**: AI development, LLM applications and AIGC
+- 💡 Enjoy combining backend logic, frontend interaction and AI capabilities
+- ✨ Belief: Code = Creativity + Technical Aesthetics
+  
 ### 🧑‍💻 关于我
 - 🔧 **主力开发语言**：Java（后端、微服务、并发编程）
 - 🎨 **兴趣方向**：前端开发 + AI编程 
@@ -24,14 +32,6 @@
 <img src="https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white">
 <img src="https://img.shields.io/badge/AI%20Programming-%230089DE.svg?style=for-the-badge&logo=tensorflow&logoColor=white">
 <img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white">
-</div>
-
----
-
-### 📊 GitHub 数据
-<div align="center">
-<img width="400" src="https://github-readme-stats.vercel.app/api?username=DavinQi&show_icons=true&theme=dark&hide_border=true" />
-<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavinQi&layout=compact&theme=dark&hide_border=true" />
 </div>
 
 ---

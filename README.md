@@ -1,5 +1,12 @@
 ## Hi there 👋
 
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/你的ID?v=4" width="120" style="border-radius:50%" alt="avatar">
+  <h2>Hi, I'm DavinQi 👋</h2>
+  <p>Full-Stack Developer | love code | love ai </p>
+</div>
+
 <!--
 **DavinQi/DavinQi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

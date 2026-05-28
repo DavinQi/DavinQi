@@ -35,9 +35,12 @@
 </div>
 
 ---
+
 # 🎮 JS Mini Game: Click to Collect Code Balls
 <div align="center">
-  <img src="https://profile-game-java-ai.vercel.app/" width="350" height="300" style="border:2px solid #fff; background:#111; border-radius:10px; cursor:pointer;">
+  <a href="https://codepen.io/xxx/pen/xxx" target="_blank">
+    <img src="https://readme-javascript-game.vercel.app/" width="350" height="300" style="border:2px solid #fff; background:#111; border-radius:10px;" alt="Game">
+  </a>
   <p>🎮 Click to collect ☕ Java / 🎨 Frontend / 🤖 AI</p>
 </div>
 

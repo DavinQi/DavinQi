@@ -3,7 +3,7 @@
  
 
 <div align="center">
-  <h1>👋 Hi, I'm DavinQi</h1>
+  <h1>👋 I'm DavinQi</h1>
 </div>
 
 

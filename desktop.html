@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>My Desktop - Java & AI & Frontend</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        /* 桌面图标 */
+        .desktop-icons {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 80px;
+            gap: 25px;
+        }
+
+        .icon {
+            width: 70px;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .icon:hover {
+            transform: scale(1.05);
+        }
+
+        .icon img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 5px;
+        }
+
+        .icon div {
+            font-size: 12px;
+            color: white;
+        }
+
+        /* 窗口 */
+        .window {
+            position: absolute;
+            top: 100px;
+            left: 150px;
+            width: 380px;
+            background: #222;
+            border: 1px solid #555;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            display: none;
+            overflow: hidden;
+        }
+
+        .title-bar {
+            background: #444;
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            cursor: move;
+        }
+
+        .close {
+            cursor: pointer;
+            padding: 0 8px;
+        }
+
+        .content {
+            padding: 15px;
+            min-height: 200px;
+            background: #111;
+        }
+
+        /* 任务栏 */
+        .taskbar {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 45px;
+            background: #0f0f1a;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 桌面图标 -->
+    <div class="desktop-icons">
+        <div class="icon" onclick="openWin('about')">
+            <img src="https://cdn-icons-png.flaticon.com/512/306/306446.png" alt="About">
+            <div>About Me</div>
+        </div>
+        <div class="icon" onclick="openWin('java')">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+            <div>Java</div>
+        </div>
+        <div class="icon" onclick="openWin('frontend')">
+            <img src="https://cdn-icons-png.flaticon.com/512/1336/1336494.png" alt="Frontend">
+            <div>Frontend</div>
+        </div>
+        <div class="icon" onclick="openWin('ai')">
+            <img src="https://cdn-icons-png.flaticon.com/512/4744/4744069.png" alt="AI">
+            <div>AI Coding</div>
+        </div>
+        <div class="icon" onclick="openWin('github')">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+            <div>GitHub</div>
+        </div>
+    </div>
+
+    <!-- 窗口 -->
+    <div class="window" id="about">
+        <div class="title-bar">
+            <span>About Me</span>
+            <span class="close" onclick="closeWin('about')">×</span>
+        </div>
+        <div class="content">
+            <h3>🧑‍💻 About Me</h3>
+            <br>
+            - 🔧 Primary Language: Java<br>
+            - 🎨 Interests: Frontend & AI Programming<br>
+            - 🤖 Passion: LLM & AIGC<br>
+            - ✨ Code = Creativity + Technical Aesthetics
+        </div>
+    </div>
+
+    <div class="window" id="java">
+        <div class="title-bar">
+            <span>Java</span>
+            <span class="close" onclick="closeWin('java')">×</span>
+        </div>
+        <div class="content">
+            <h3>☕ Java Skills</h3>
+            <br>
+            - Backend API<br>
+            - Microservices<br>
+            - Spring Boot / Spring Cloud<br>
+            - Concurrent Programming
+        </div>
+    </div>
+
+    <div class="window" id="frontend">
+        <div class="title-bar">
+            <span>Frontend</span>
+            <span class="close" onclick="closeWin('frontend')">×</span>
+        </div>
+        <div class="content">
+            <h3>🎨 Frontend Skills</h3>
+            <br>
+            - HTML / CSS / JavaScript<br>
+            - Vue / React<br>
+            - Interactive Animation<br>
+            - Web Design
+        </div>
+    </div>
+
+    <div class="window" id="ai">
+        <div class="title-bar">
+            <span>AI Coding</span>
+            <span class="close" onclick="closeWin('ai')">×</span>
+        </div>
+        <div class="content">
+            <h3>🤖 AI Programming</h3>
+            <br>
+            - LLM Application<br>
+            - AIGC Development<br>
+            - AI Assistant<br>
+            - Prompt Engineering
+        </div>
+    </div>
+
+    <div class="window" id="github">
+        <div class="title-bar">
+            <span>GitHub</span>
+            <span class="close" onclick="closeWin('github')">×</span>
+        </div>
+        <div class="content">
+            <h3>📌 My GitHub</h3>
+            <br>
+            Welcome to my GitHub !<br><br>
+            Focus on Java + Frontend + AI<br><br>
+            Open Source & Learning
+        </div>
+    </div>
+
+    <!-- 任务栏 -->
+    <div class="taskbar">
+        <span>My Desktop System</span>
+    </div>
+
+    <script>
+        // 打开窗口
+        function openWin(id) {
+            document.querySelectorAll('.window').forEach(w => w.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+            dragWindow(document.getElementById(id));
+        }
+
+        // 关闭窗口
+        function closeWin(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+
+        // 窗口拖动
+        function dragWindow(win) {
+            const title = win.querySelector('.title-bar');
+            let offsetX, offsetY, isDrag = false;
+
+            title.onmousedown = (e) => {
+                isDrag = true;
+                offsetX = e.clientX - win.offsetLeft;
+                offsetY = e.clientY - win.offsetTop;
+            };
+
+            document.onmousemove = (e) => {
+                if (!isDrag) return;
+                win.style.left = e.clientX - offsetX + 'px';
+                win.style.top = e.clientY - offsetY + 'px';
+            };
+
+            document.onmouseup = () => isDrag = false;
+        }
+    </script>
+</body>
+</html>

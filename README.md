@@ -33,18 +33,10 @@
 
 ---
 
+ <iframe src="desktop.html" width="100%" height="600px" frameborder="0"></iframe>
+
+
  
-
-
----
-
-# 🎮 JS Mini Game: Click to Collect Code Balls
-<div align="center">
-  <a href="https://codepen.io/xxx/pen/xxx" target="_blank">
-    <img src="https://readme-javascript-game.vercel.app/" width="350" height="300" style="border:2px solid #fff; background:#111; border-radius:10px;" alt="Game">
-  </a>
-  <p>🎮 Click to collect ☕ Java / 🎨 Frontend / 🤖 AI</p>
-</div>
 
 ---
 

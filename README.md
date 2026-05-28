@@ -8,6 +8,3 @@
 
 ---
 
-### 💬contact  联系方式
-- 📧 Email：qxqmail@163.com
-- 🌐 GitHub：github.com/DavinQi

@@ -33,10 +33,50 @@
 
 ---
 
- <iframe src="desktop.html" width="100%" height="600px" frameborder="0"></iframe>
-
-
  
+
+# 🖥️ My Developer Desktop
+<div align="center">
+  <table style="width:100%; border:none; background:#1a1a2e; border-radius:12px; padding:20px;">
+    <tr>
+      <!-- 桌面图标区 -->
+      <td align="center" style="width:20%; padding:15px;">
+        <a href="#about-me" style="text-decoration:none; color:white;">
+          <img src="https://cdn-icons-png.flaticon.com/512/306/306446.png" width="60" style="filter:drop-shadow(0 0 5px #5ed9f7);">
+          <br>About Me
+        </a>
+      </td>
+      <td align="center" style="width:20%; padding:15px;">
+        <a href="#java-stack" style="text-decoration:none; color:white;">
+          <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="60" style="filter:drop-shadow(0 0 5px #f89820);">
+          <br>Java Dev
+        </a>
+      </td>
+      <td align="center" style="width:20%; padding:15px;">
+        <a href="#frontend-stack" style="text-decoration:none; color:white;">
+          <img src="https://cdn-icons-png.flaticon.com/512/1336/1336494.png" width="60" style="filter:drop-shadow(0 0 5px #4FC08D);">
+          <br>Frontend
+        </a>
+      </td>
+      <td align="center" style="width:20%; padding:15px;">
+        <a href="#ai-stack" style="text-decoration:none; color:white;">
+          <img src="https://cdn-icons-png.flaticon.com/512/4744/4744069.png" width="60" style="filter:drop-shadow(0 0 5px #a855f7);">
+          <br>AI Coding
+        </a>
+      </td>
+      <td align="center" style="width:20%; padding:15px;">
+        <a href="https://github.com/你的用户名" target="_blank" style="text-decoration:none; color:white;">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="60" style="filter:drop-shadow(0 0 5px #ffffff);">
+          <br>GitHub
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- 动态打字机 -->
+  <img src="https://readme-typing-svg.demolab.com/?lines=☕+Java+Backend+Engineer;🎨+Frontend+Enthusiast;🤖+AI+Coding+Lover;Code+=+Creativity+%2B+Technical+Aesthetics&font=Fira%20Code&center=true&width=600&height=50&size=22&color=ffffff&vCenter=true&pause=1000&background=1a1a2e" style="margin:20px 0;">
+</div>
+
 
 ---
 

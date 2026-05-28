@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>👋 Hi, I'm DavinQi</h1>
-  <p>Full-Stack Developer | love code | love ai </p>
+  <p>☕ Full-Stack Developer |🎨 love code |🤖 love ai </p>
   <p>☕ 主力 Java 后端开发者 | 🎨 热爱编程 | 🤖 痴迷 AI 编程 的开发老兵</h3>
 </div>
 
@@ -35,77 +35,14 @@
 </div>
 
 ---
-
-# 🎮 JS 小游戏：点击收集代码球（GitHub 主页直接运行）
+# 🎮 JS Mini Game: Click to Collect Code Balls
 <div align="center">
-<canvas id="gameCanvas" width="350" height="300" style="border:2px solid #fff; background:#111; border-radius:10px;"></canvas>
-<p>🎮 点击屏幕收集「Java / 前端 / AI」代码球</p>
+  <img src="https://profile-game-java-ai.vercel.app/" width="350" height="300" style="border:2px solid #fff; background:#111; border-radius:10px; cursor:pointer;">
+  <p>🎮 Click to collect ☕ Java / 🎨 Frontend / 🤖 AI</p>
 </div>
-
-<script>
-let canvas = document.getElementById('gameCanvas');
-let ctx = canvas.getContext('2d');
-let score = 0;
-let balls = [];
-
-// 代码球类型
-const types = [
-  { text:"☕ Java", color:"#f89820" },
-  { text:"🎨 前端", color:"#5ed9f7" },
-  { text:"🤖 AI", color:"#ffffff" }
-];
-
-// 生成随机球
-function spawnBall() {
-  let type = types[Math.floor(Math.random()*types.length)];
-  balls.push({
-    x: Math.random() * (canvas.width-30) + 15,
-    y: Math.random() * (canvas.height-30) + 15,
-    r: 18,
-    color: type.color,
-    text: type.text
-  });
-}
-
-// 点击收集
-canvas.onclick = (e) => {
-  let rect = canvas.getBoundingClientRect();
-  let x = e.clientX - rect.left;
-  let y = e.clientY - rect.top;
-  for(let i=balls.length-1; i>=0; i--){
-    let b = balls[i];
-    let d = Math.hypot(x-b.x, y-b.y);
-    if(d < b.r){
-      balls.splice(i,1);
-      score++;
-    }
-  }
-}
-
-// 游戏循环
-function loop() {
-  ctx.fillStyle = "#111";
-  ctx.fillRect(0,0,canvas.width,canvas.height);
-  if(Math.random()<0.03) spawnBall();
-  balls.forEach(b => {
-    ctx.beginPath();
-    ctx.arc(b.x,b.y,b.r,0,Math.PI*2);
-    ctx.fillStyle = b.color;
-    ctx.fill();
-    ctx.fillStyle = "#000";
-    ctx.font = "12px Arial";
-    ctx.fillText(b.text, b.x-12, b.y+4);
-  });
-  ctx.fillStyle = "#fff";
-  ctx.font = "18px Arial";
-  ctx.fillText("得分：" + score, 10, 30);
-  requestAnimationFrame(loop);
-}
-loop();
-</script>
 
 ---
 
-### 💬 联系方式
-- 📧 Email：你的邮箱
-- 🌐 GitHub：github.com/你的用户名
+### 💬contact  联系方式
+- 📧 Email：qxqmail@163.com
+- 🌐 GitHub：github.com/DavinQi

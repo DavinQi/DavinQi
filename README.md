@@ -1,14 +1,8 @@
-# Hi~
-
-
-<div align="center">
- 
-  <h2>Hi, I'm DavinQi 👋</h2>
-  <p>Full-Stack Developer | love code | love ai </p>
-</div>
+## Hi ~
 
 <div align="center">
   <h1>👋 Hi, I'm DavinQi</h1>
+  <p>Full-Stack Developer | love code | love ai </p>
   <h3>☕ 主力 Java 后端开发者 | 🎨 热爱编程 | 🤖 痴迷 AI 编程 的开发老兵</h3>
 </div>
 
@@ -16,9 +10,9 @@
 
 ### 🧑‍💻 关于我
 - 🔧 **主力开发语言**：Java（后端、微服务、并发编程）
-- 🎨 **兴趣方向**：前端开发（Vue/React/JS动效）
+- 🎨 **兴趣方向**：前端开发 + AI编程 
 - 🤖 **狂热爱好**：AI 编程、大模型应用、AIGC开发
-- 💡 喜欢把 **后端逻辑 + 前端交互 + AI能力** 结合在一起
+- 💡 喜欢 **后端逻辑 + 前端交互 + AI能力**  
 - ✨ 相信：代码 = 创造力 + 技术美学
 
 ---

@@ -8,8 +8,8 @@
 </div>
 
 <div align="center">
-  <h1>👋 Hi, I'm 你的用户名</h1>
-  <h3>☕ 主力 Java 后端开发者 | 🎨 热爱前端编程 | 🤖 痴迷 AI 编程</h3>
+  <h1>👋 Hi, I'm DavinQi</h1>
+  <h3>☕ 主力 Java 后端开发者 | 🎨 热爱编程 | 🤖 痴迷 AI 编程 的开发老兵</h3>
 </div>
 
 ---
@@ -36,8 +36,8 @@
 
 ### 📊 GitHub 数据
 <div align="center">
-<img width="400" src="https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=dark&hide_border=true" />
-<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=dark&hide_border=true" />
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=DavinQi&show_icons=true&theme=dark&hide_border=true" />
+<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavinQi&layout=compact&theme=dark&hide_border=true" />
 </div>
 
 ---
